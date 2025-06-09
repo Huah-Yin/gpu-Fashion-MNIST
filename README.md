@@ -1,19 +1,8 @@
 # Fashion-MNIST 图像分类项目
-
+注意：需要安装 cuda 版本的 PyTorch
 ## 项目概述
 本项目使用 PyTorch 实现了对 Fashion-MNIST 数据集的图像分类任务。Fashion-MNIST 是一个包含 10 类服装物品的数据集，每张图片大小为 28x28 像素。
 
-### 数据集类别
-- t-shirt（T恤）
-- trouser（裤子）
-- pullover（套头衫）
-- dress（连衣裙）
-- coat（外套）
-- sandal（凉鞋）
-- shirt（衬衫）
-- sneaker（运动鞋）
-- bag（包）
-- ankle boot（短靴）
 
 ## 项目结构
 ```
@@ -104,9 +93,3 @@ python main.py
 - 训练过程中会自动保存最佳模型
 - 可视化结果会实时显示训练进度
 
-## 未来改进方向
-1. 尝试更复杂的网络架构（如CNN）
-2. 实现数据增强
-3. 添加模型保存和加载功能
-4. 优化超参数选择
-5. 添加早停机制 
