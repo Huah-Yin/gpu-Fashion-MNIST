@@ -1,0 +1,7 @@
+# Python 编译缓存
+__pycache__/
+
+# 常见的深度学习数据集文件夹
+data/
+
+cuda-keyring_1.1-1_all.deb
